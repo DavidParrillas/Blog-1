@@ -1,0 +1,117 @@
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.menu ul{
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .button {
+    height: 1rem;
+    width: 3rem;
+    margin: 0;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+    border-color: #012E40;
+}
+nav {
+    margin-top: 5rem;
+}
+section{
+    margin: 1rem 10em;
+}
+img {
+    width:100%;
+}
+h1 {
+    color: #012E40;
+    font-size: 3rem;
+}
+h2 {
+    color: #03738C;
+}
+p {
+    color: black;
+    margin-bottom: 1rem;
+}
+dt, h3{
+    color: #02735E;
+    font-weight: bold;
+    font-size: 20px;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align:center;
+    border: 2px solid #03A678;
+    width: 200px;
+    font-size: 14px;
+    background-color: white;
+}
+.personajes {
+    margin: 1%;
+}
+.menu h2{
+    background-color: white;
+    text-align: center;
+}
+.menu{
+    background-color: #012E40;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+}
+.menu a{
+    color: white;
+    margin: 1rem 10rem;
+}
+
+.button{
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align:center;
+    border: 2px solid #03A678;
+    width: 200px;
+    font-size: 14px;
+    background-color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.button:hover {
+    background-color: #03A678;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    color: aqua;
+}
+ul, li {
+    margin-bottom: 0.5rem;
+}
+
+ul, li ul, li{
+    margin-left: 1rem;
+}
